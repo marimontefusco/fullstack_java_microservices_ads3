@@ -13,6 +13,11 @@ public class Controller {
         return "hello";
     }
 
+    @GetMapping("/avisos")
+    public String avisar() {
+        return "O jantar está na mesa!!";
+    }
+
     // roda aplicação
     // depois no navegador -> http://localhost:8087/api/cadastro/v1/home
 
